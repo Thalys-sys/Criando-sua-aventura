@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do tesouro perdido</title>
+</head>
+<body>
+   <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Um dia desse dentro de uma biblioteca da escola, eu encontrei um mapa do tesouro escondendo segredos e riquezas em uma cidade perdida.
+                Nesse mapa o autor deixou pistas da onde poderia encontrar a cidade perdida  então decidir segui-las</p>
+                <button class="btn-proximo" data-proximo="1">Paraná</button>
+                <button class="btn-proximo" data-proximo="2">Minas Gerais</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada no Paraná, começando a explorar as Cataratas logo no amanhacer para encontrar a primeira pista.</p>
+                <button class="btn-proximo" data-proximo="3">Procurar pista nas correnteza do Rio</button>
+                <button class="btn-proximo" data-proximo="4">Desistir e voltar pra casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Pernambuco, você visita a histórica cidade de Olinda. Na carta, uma das pistas indica que para localizar a entrada para a cidade perdida você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar a Gruta Rei Do Mato</button>
+            <button class="btn-proximo" data-proximo="6">Explorar o Museu Ferroviário de Sete Lagoas</button>
+        </div>
+        <div class="passo" id="passo3">
+            <p>Nas correnteza do Rio, você encontra uma garrafa com um mapa, mostrando a próxima localização que é em Londrina</p>
+             <button class="btn_proximo" data-proximo="7">Seguir para Londrina</button>
+        </div>
+        <div classe="passo" id="passo4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desistindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo5">
+            <p>Nas Gruta do Rei do mato, você descobre a próxima localização escondido entre uma fresta das pedras,
+                apontando para a próxima pista que esta em Londrina</p>
+            <button class="btn_proximo" data-proximo="7">Viajar para Londrina</button>
+        </div>
+        <div classe="passo" id=passo6>
+            <p>Explorando o Museu, você encontra uma caminho desenhado na parede, mas chegando no lugar era um beco sem saida</p>
+            <button class="btn_proximo" data-proximo="8"></button>
+        </div>
+        </div>
+        <div class="passo" id="passo8">
+            <p>De volta ao museu, você encontra uma pista atrás de uma das pinturas expostas, mostrando o próxima localização do mapa. Agora, para a cidade de Londrina</p>
+        </div>
+        <div class="passo" id="passo7">
+            <p>Em Londrina, a busca pelo tesouro fica mais intensa, você se de para  com o Lago Igapó</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo lado direito do lago</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo lado esquerdo do lago</button>
+        </div>
+        <div classe="passo" id="passo9">
+            <p>O rio a direita leva você a uma casa abandonada que tem uma escada levando ao subsolo assim revelando o tesouro escondido</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+        <div classe="passo" id="passo10">
+            <p>O rio a esquerda leva você para um parque. Apesar da bela paisagem, não há sinais do tesouro escondido aqui.</p>
+            <button classe="btn-proximo" data-proximo="12">Retorna e tenta a outra parte do Rio</button>
+        </div>
+        <div classe="passo" id="passo12">
+            <p>Retornando e escolhendo o lado direito do rio, você finalmente encontra uma casa abandonada com uma escada para o subsolo e assim encontrando a caverna do tesouro</p>
+            <button classe="btn-proximo" data-proximo="11"></button>
+            <p>Você decide levar o tesouro, com você para casa e vende-lo para ter uma vida tranquila por um bom tempo</p>
+        </div>
+        <div classe="passo" id="passo11">
+            <img src="img/cenario-passo11-tesouro-perdido.png" alt="encontrando um tesouro belo na caverna escondida em Londrina">
+            <p>Você decide levar o tesouro, com você para casa e vende-lo para ter uma vida tranquila por um bom tempo</p>
+        </div>
+            
+
+   </main>
+   <script src="script.js"></script>
+</body>
+</html>
